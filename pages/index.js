@@ -7,8 +7,20 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Landing Page</title>
-          <meta property="og:title" content="Landing Page" />
+          <title>Purple Light Services</title>
+          <meta
+            name="description"
+            content="Purple Light Services was founded by two family members to bring a new way of organising everybody's life. With a deep knowledge of ancient Feng Shui techniques and fresh ideas from the IT world, we developed a new level of design for people seeking to live stressless.\n"
+          />
+          <meta property="og:title" content="Purple Light Services" />
+          <meta
+            property="og:description"
+            content="Purple Light Services. With a traditional design approach and modern technologies, we offer exceptional and unique services to find personal harmony in today's fast-paced world."
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/bb587829-7824-4bf9-ba8a-9ccf3cca800e/596db76b-7486-4988-b489-9187c9a90a1a?org_if_sml=1"
+          />
         </Head>
         <header id="header" data-role="Header" className="home-header">
           <header data-thq="thq-navbar" className="home-navbar-interactive">
