@@ -1,0 +1,132 @@
+:root {
+  --dl-color-main-text: #ac8772ff;
+  --dl-color-main-white: #FFFFFF;
+  --dl-space-space-unit: 8px;
+  --dl-color-main-purple: #9900ccff;
+  --dl-color-main-heading: #678109ff;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 4px;
+  --dl-space-space-tenunits: 80px;
+  --dl-color-main-background: #f8f8f8ff;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 40px;
+  --dl-space-space-fourunits: 32px;
+  --dl-radius-radius-radius24: 24px;
+  --dl-space-space-doubleunit: 16px;
+  --dl-space-space-tripleunit: 24px;
+}
+.teleport-show {
+  display: flex !important;
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.button {
+  color: var(--dl-color-main-purple);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-family: Raleway;
+  border-color: var(--dl-color-main-purple);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-main-white);
+}
+.textarea {
+  color: rgb(172, 135, 114);
+  cursor: auto;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.input {
+  color: var(--dl-color-main-purple);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  font-family: Raleway;
+  border-color: var(--dl-color-main-purple);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-main-white);
+}
+.heading {
+  color: #678109;
+  margin: var(--dl-space-space-fiveunits);
+  font-size: 3rem;
+  text-align: center;
+}
+.link {
+  font-size: 1rem;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+.Section-Text {
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.SmallCard-Heading {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.Card-Text {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.BigCard-Heading {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.Card-Heading {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.Anchor {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.Section-Heading {
+  font-size: 48px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.22;
+  text-transform: none;
+  text-decoration: none;
+}
