@@ -645,7 +645,7 @@ const NataliaPashigina = (props) => {
             justify-content: flex-start;
           }
           .natalia-pashigina-image {
-            height: auto;
+            width: 300px;
             align-self: center;
           }
           .natalia-pashigina-text {
@@ -1114,6 +1114,10 @@ const NataliaPashigina = (props) => {
             .natalia-pashigina-hero {
               flex-direction: column;
               justify-content: flex-start;
+            }
+            .natalia-pashigina-image {
+              width: 200px;
+              height: 200px;
             }
             .natalia-pashigina-text {
               font-size: 1.5rem;
