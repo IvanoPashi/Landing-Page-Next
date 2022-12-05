@@ -5,6 +5,7 @@
   --dl-color-main-purple: #9900ccff;
   --dl-color-main-heading: #678109ff;
   --dl-radius-radius-round: 50%;
+  --dl-color-main-gray-text: #999999ff;
   --dl-space-space-halfunit: 4px;
   --dl-space-space-tenunits: 80px;
   --dl-color-main-background: #f8f8f8ff;
@@ -19,6 +20,7 @@
 }
 .teleport-show {
   display: flex !important;
+  transform: translateY(0%) !important;
 }
 .list {
   width: 100%;
@@ -44,7 +46,7 @@
 .textarea {
   color: rgb(172, 135, 114);
   cursor: auto;
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 1.5rem;
   text-align: left;
 }
@@ -60,14 +62,26 @@
 }
 .heading {
   color: #678109;
-  margin: var(--dl-space-space-fiveunits);
+  margin: 2rem;
+  padding: 1rem;
   font-size: 3rem;
   text-align: center;
 }
 .link {
   font-size: 1rem;
-  margin-right: 2rem;
-  text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.icons {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.heading_mobile {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
 }
 .Section-Text {
   font-size: 18px;
@@ -129,4 +143,10 @@
   line-height: 1.22;
   text-transform: none;
   text-decoration: none;
+}
+@media(max-width: 991px) {
+  .heading {
+    margin: 1rem;
+    font-size: 2rem;
+  }
 }
