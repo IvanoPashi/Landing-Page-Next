@@ -48,13 +48,13 @@ const Home = (props) => {
                 <a href="#services" className="home-link03 link">
                   Services
                 </a>
-                <a href="#testimonials" className="home-link04 link">
+                <a href="#clients" className="home-link04 link">
                   Clients
                 </a>
                 <a href="#contact" className="home-link05 link">
                   Contact
                 </a>
-                <Link href="/">
+                <Link href="/natalia-pashigina">
                   <a className="home-link06 link">Owner</a>
                 </Link>
               </nav>

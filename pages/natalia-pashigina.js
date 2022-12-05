@@ -262,7 +262,7 @@ const NataliaPashigina = (props) => {
         </div>
         <div className="natalia-pashigina-section-separator"></div>
         <div id="about-owner" className="natalia-pashigina-about-me">
-          <h2 className="heading">About me</h2>
+          <h2 className="heading natalia-pashigina-text06">About me</h2>
           <p className="natalia-pashigina-text07 textarea">
             <span>
               Hi 👋 I&apos;m Natalia, a highly skilled professional who helps
@@ -405,7 +405,7 @@ const NataliaPashigina = (props) => {
               <h3 className="natalia-pashigina-text42">Ba Zi analysis</h3>
               <p className="natalia-pashigina-text43">
                 <span>Reading the Ba Zi chart to know you destiny. </span>
-                <span>Analyse your personal strengths.</span>
+                <span>Analyse your personal strengths and strategy.</span>
                 <br></br>
               </p>
             </div>
@@ -844,6 +844,7 @@ const NataliaPashigina = (props) => {
             padding: 1rem;
             align-self: flex-start;
             align-items: center;
+            margin-bottom: 2rem;
             flex-direction: column;
             justify-content: flex-end;
           }
@@ -981,6 +982,10 @@ const NataliaPashigina = (props) => {
               width: 50%;
               align-self: center;
             }
+            .natalia-pashigina-text40 {
+              margin-top: 1rem;
+              margin-bottom: 1rem;
+            }
             .natalia-pashigina-service-card1 {
               border-color: var(--dl-color-main-heading);
               border-width: 1px;
@@ -993,6 +998,10 @@ const NataliaPashigina = (props) => {
               width: 50%;
               align-self: center;
             }
+            .natalia-pashigina-text42 {
+              margin-top: 1rem;
+              margin-bottom: 1rem;
+            }
             .natalia-pashigina-service-card2 {
               border-color: var(--dl-color-main-heading);
               border-width: 1px;
@@ -1004,9 +1013,17 @@ const NataliaPashigina = (props) => {
             .natalia-pashigina-image3 {
               width: 50%;
             }
+            .natalia-pashigina-text47 {
+              margin-top: 1rem;
+              margin-bottom: 1rem;
+            }
             .natalia-pashigina-image4 {
               width: 50%;
               align-self: center;
+            }
+            .natalia-pashigina-text52 {
+              margin-top: 1rem;
+              margin-bottom: 1rem;
             }
             .natalia-pashigina-text53 {
               color: var(--dl-color-main-gray-text);
@@ -1101,6 +1118,9 @@ const NataliaPashigina = (props) => {
               align-items: center;
               justify-content: center;
             }
+            .natalia-pashigina-text06 {
+              margin-bottom: 0px;
+            }
             .natalia-pashigina-text09 {
               color: var(--dl-color-main-purple);
             }
@@ -1144,6 +1164,10 @@ const NataliaPashigina = (props) => {
             .natalia-pashigina-text42 {
               color: var(--dl-color-main-text);
               font-size: 1.5rem;
+            }
+            .natalia-pashigina-text43 {
+              color: var(--dl-color-main-gray-text);
+              font-size: 1rem;
             }
             .natalia-pashigina-text47 {
               color: var(--dl-color-main-text);
