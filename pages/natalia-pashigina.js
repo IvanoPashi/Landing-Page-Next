@@ -184,7 +184,7 @@ const NataliaPashigina = (props) => {
           <div id="profile" className="natalia-pashigina-profile">
             <img
               alt="Avatar Natalia"
-              src="/playground_assets/natalia-modified-200h.png"
+              src="/playground_assets/natalia-modified1.png"
               loading="eager"
               className="natalia-pashigina-image"
             />
@@ -391,8 +391,8 @@ const NataliaPashigina = (props) => {
               />
               <h3 className="natalia-pashigina-text40">Feng Shui and Vastu</h3>
               <p className="natalia-pashigina-text41">
-                Complete Feng Shui analysis and recommendations for residential
-                and non-residential premises.
+                Complete Feng Shui analysis and recommendations for home and
+                office.
               </p>
             </div>
             <div className="natalia-pashigina-service-card1">
@@ -404,8 +404,9 @@ const NataliaPashigina = (props) => {
               />
               <h3 className="natalia-pashigina-text42">Ba Zi analysis</h3>
               <p className="natalia-pashigina-text43">
-                <span>Reading the Ba Zi chart to know you destiny. </span>
-                <span>Analyse your personal strengths and strategy.</span>
+                <span>Ba Zi chart reading to know your destiny. </span>
+                <br></br>
+                <span>Analyse your personal strengths and strategies.</span>
                 <br></br>
               </p>
             </div>
@@ -416,10 +417,12 @@ const NataliaPashigina = (props) => {
                 loading="lazy"
                 className="natalia-pashigina-image3"
               />
-              <h3 className="natalia-pashigina-text47">Consulting</h3>
-              <p className="natalia-pashigina-text48">
+              <h3 className="natalia-pashigina-text48">Consulting</h3>
+              <p className="natalia-pashigina-text49">
                 <span>Spiritual and psychological consultations. </span>
+                <br></br>
                 <span>Advice on running any business. </span>
+                <br></br>
                 <span>Well being lifestyle advising.</span>
               </p>
             </div>
@@ -430,12 +433,18 @@ const NataliaPashigina = (props) => {
                 loading="lazy"
                 className="natalia-pashigina-image4"
               />
-              <h3 className="natalia-pashigina-text52">Teaching</h3>
-              <p className="natalia-pashigina-text53">
+              <h3 className="natalia-pashigina-text55">Teaching</h3>
+              <p className="natalia-pashigina-text56">
                 <span>
-                  Get new and deep knowledge about Feng Shui, Vastu and Ba Zi
-                  from my lectures and seminars. 
+                  Get new and deep knowledge about Feng Shui,
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
                 </span>
+                <span>Vastu and Ba Zi from my lectures and seminars. </span>
+                <br></br>
                 <span>Training in private and in groups.</span>
               </p>
             </div>
@@ -482,7 +491,7 @@ const NataliaPashigina = (props) => {
           </nav>
           <div className="natalia-pashigina-separator"></div>
           <div className="natalia-pashigina-container2">
-            <span className="natalia-pashigina-text56">
+            <span className="natalia-pashigina-text61">
               <span>© 2022 Purple Light Services FZE</span>
               <br></br>
               <span>All Rights Reserved.</span>
@@ -823,7 +832,7 @@ const NataliaPashigina = (props) => {
             width: 100%;
             object-fit: cover;
           }
-          .natalia-pashigina-text47 {
+          .natalia-pashigina-text48 {
             color: var(--dl-color-main-text);
             font-size: 1.5rem;
             align-self: center;
@@ -831,7 +840,7 @@ const NataliaPashigina = (props) => {
             text-align: left;
             margin-bottom: 1rem;
           }
-          .natalia-pashigina-text48 {
+          .natalia-pashigina-text49 {
             color: var(--dl-color-main-gray-text);
             font-size: 1rem;
             align-self: center;
@@ -852,7 +861,7 @@ const NataliaPashigina = (props) => {
             width: 100%;
             object-fit: cover;
           }
-          .natalia-pashigina-text52 {
+          .natalia-pashigina-text55 {
             color: var(--dl-color-main-text);
             font-size: 1.5rem;
             align-self: center;
@@ -860,7 +869,7 @@ const NataliaPashigina = (props) => {
             text-align: center;
             margin-bottom: 1rem;
           }
-          .natalia-pashigina-text53 {
+          .natalia-pashigina-text56 {
             color: var(--dl-color-main-gray-text);
             font-size: 1rem;
             align-self: center;
@@ -934,7 +943,7 @@ const NataliaPashigina = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .natalia-pashigina-text56 {
+          .natalia-pashigina-text61 {
             text-align: center;
             line-height: 2;
           }
@@ -947,11 +956,11 @@ const NataliaPashigina = (props) => {
               margin-top: 2rem;
               margin-bottom: 2rem;
             }
-            .natalia-pashigina-text47 {
+            .natalia-pashigina-text48 {
               margin-top: 2rem;
               margin-bottom: 2rem;
             }
-            .natalia-pashigina-text52 {
+            .natalia-pashigina-text55 {
               margin-top: 2rem;
               margin-bottom: 2rem;
             }
@@ -1013,7 +1022,7 @@ const NataliaPashigina = (props) => {
             .natalia-pashigina-image3 {
               width: 50%;
             }
-            .natalia-pashigina-text47 {
+            .natalia-pashigina-text48 {
               margin-top: 1rem;
               margin-bottom: 1rem;
             }
@@ -1021,11 +1030,11 @@ const NataliaPashigina = (props) => {
               width: 50%;
               align-self: center;
             }
-            .natalia-pashigina-text52 {
+            .natalia-pashigina-text55 {
               margin-top: 1rem;
               margin-bottom: 1rem;
             }
-            .natalia-pashigina-text53 {
+            .natalia-pashigina-text56 {
               color: var(--dl-color-main-gray-text);
               font-size: 1rem;
             }
@@ -1161,6 +1170,10 @@ const NataliaPashigina = (props) => {
               color: var(--dl-color-main-text);
               font-size: 1.5rem;
             }
+            .natalia-pashigina-text41 {
+              color: var(--dl-color-main-gray-text);
+              font-size: 1rem;
+            }
             .natalia-pashigina-text42 {
               color: var(--dl-color-main-text);
               font-size: 1.5rem;
@@ -1169,13 +1182,19 @@ const NataliaPashigina = (props) => {
               color: var(--dl-color-main-gray-text);
               font-size: 1rem;
             }
-            .natalia-pashigina-text47 {
+            .natalia-pashigina-text48 {
               color: var(--dl-color-main-text);
               font-size: 1.5rem;
             }
-            .natalia-pashigina-text52 {
+            .natalia-pashigina-text49 {
+              color: var(--dl-color-main-gray-text);
+            }
+            .natalia-pashigina-text55 {
               color: var(--dl-color-main-text);
               font-size: 1.5rem;
+            }
+            .natalia-pashigina-text56 {
+              color: var(--dl-color-main-gray-text);
             }
             .natalia-pashigina-footer {
               position: relative;
