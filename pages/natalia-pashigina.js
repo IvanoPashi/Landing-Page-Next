@@ -172,7 +172,7 @@ const NataliaPashigina = (props) => {
                   >
                     Contact
                   </a>
-                  <Link href="/">
+                  <Link href="/natalia-pashigina">
                     <a className="natalia-pashigina-link13 link">Owner</a>
                   </Link>
                 </nav>
@@ -508,18 +508,14 @@ const NataliaPashigina = (props) => {
             top: 0px;
             width: 100%;
             display: flex;
+            padding: 1rem;
             position: sticky;
-            padding-top: 1rem;
-            padding-left: 3rem;
-            padding-right: 3rem;
-            padding-bottom: 1rem;
             background-color: var(--dl-color-main-white);
           }
           .natalia-pashigina-navbar-interactive {
             width: 100%;
             display: flex;
-            position: relative;
-            align-items: center;
+            padding: 1rem;
             flex-direction: row;
             justify-content: space-between;
           }
@@ -898,7 +894,9 @@ const NataliaPashigina = (props) => {
           .natalia-pashigina-nav3 {
             width: 100%;
             display: flex;
+            flex-wrap: wrap;
             align-self: center;
+            align-items: stretch;
             flex-direction: row;
             justify-content: center;
           }
@@ -948,6 +946,9 @@ const NataliaPashigina = (props) => {
             line-height: 2;
           }
           @media (max-width: 1600px) {
+            .natalia-pashigina-social-bar {
+              width: 50%;
+            }
             .natalia-pashigina-text40 {
               margin-top: 2rem;
               margin-bottom: 2rem;
@@ -1043,6 +1044,9 @@ const NataliaPashigina = (props) => {
             .natalia-pashigina-hero {
               align-items: stretch;
             }
+            .natalia-pashigina-image {
+              width: 30%;
+            }
             .natalia-pashigina-about-me {
               min-height: 70vh;
             }
@@ -1067,10 +1071,6 @@ const NataliaPashigina = (props) => {
               padding-left: 32px;
               padding-right: 32px;
             }
-            .natalia-pashigina-navbar-interactive {
-              padding-left: 32px;
-              padding-right: 32px;
-            }
             .natalia-pashigina-desktop-menu {
               display: none;
             }
@@ -1081,6 +1081,9 @@ const NataliaPashigina = (props) => {
               align-items: center;
               flex-direction: column;
               justify-content: center;
+            }
+            .natalia-pashigina-image {
+              width: 30%;
             }
             .natalia-pashigina-social-bar {
               width: 100%;
@@ -1102,9 +1105,6 @@ const NataliaPashigina = (props) => {
             .natalia-pashigina-header {
               padding: var(--dl-space-space-unit);
             }
-            .natalia-pashigina-navbar-interactive {
-              padding: var(--dl-space-space-unit);
-            }
             .natalia-pashigina-container1 {
               margin-bottom: 2rem;
             }
@@ -1116,8 +1116,7 @@ const NataliaPashigina = (props) => {
               justify-content: flex-start;
             }
             .natalia-pashigina-image {
-              width: 200px;
-              height: 200px;
+              width: 50%;
             }
             .natalia-pashigina-text {
               font-size: 1.5rem;
@@ -1203,9 +1202,6 @@ const NataliaPashigina = (props) => {
             .natalia-pashigina-footer {
               position: relative;
               flex-direction: column;
-            }
-            .natalia-pashigina-nav3 {
-              flex-wrap: wrap;
             }
             .natalia-pashigina-separator {
               margin-top: 24px;

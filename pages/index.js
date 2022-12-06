@@ -102,7 +102,7 @@ const Home = (props) => {
                   <a href="#contact" className="home-link12">
                     Contact
                   </a>
-                  <Link href="/">
+                  <Link href="/natalia-pashigina">
                     <a className="home-link13">Owner</a>
                   </Link>
                 </nav>
@@ -353,7 +353,16 @@ const Home = (props) => {
           <div className="home-separator"></div>
           <div className="home-container2">
             <span className="home-text47">
-              © 2022 Purple Light Services FZE, All Rights Reserved.
+              <span>
+                © 2022 Purple Light Services FZE,
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>All Rights Reserved.</span>
             </span>
           </div>
         </footer>
@@ -859,6 +868,7 @@ const Home = (props) => {
           .home-nav3 {
             width: 100%;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: center;
           }
@@ -1057,9 +1067,6 @@ const Home = (props) => {
             .home-location-1 {
               margin-right: 0px;
               margin-bottom: 0px;
-            }
-            .home-nav3 {
-              flex-wrap: wrap;
             }
             .home-separator {
               margin-top: 24px;
