@@ -376,16 +376,14 @@ const Home = (props) => {
             top: 0px;
             width: 100%;
             display: flex;
+            padding: 1rem;
             position: sticky;
-            padding-top: 1rem;
-            padding-left: 3rem;
-            padding-right: 3rem;
-            padding-bottom: 1rem;
             background-color: var(--dl-color-main-white);
           }
           .home-navbar-interactive {
             width: 100%;
             display: flex;
+            padding: 1rem;
             position: relative;
             align-items: center;
             flex-direction: row;
@@ -860,8 +858,8 @@ const Home = (props) => {
             justify-content: space-between;
           }
           .home-image4 {
-            height: 3rem;
-            margin: 2rem;
+            height: 2rem;
+            margin: 1rem;
             align-self: center;
             object-fit: cover;
           }
@@ -914,6 +912,9 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
+          .home-text47 {
+            text-align: center;
+          }
           @media (max-width: 1600px) {
             .home-hero {
               min-height: 70vh;
@@ -952,14 +953,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .home-header {
-              padding-left: 32px;
-              padding-right: 32px;
-            }
-            .home-navbar-interactive {
-              padding-left: 32px;
-              padding-right: 32px;
-            }
             .home-desktop-menu {
               display: none;
             }
@@ -1016,16 +1009,10 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: 24px;
             }
-            .home-text47 {
-              margin-bottom: 24px;
-            }
           }
-          @media (max-width: 390px) {
-            .home-header {
-              padding: var(--dl-space-space-unit);
-            }
+          @media (max-width: 600px) {
             .home-navbar-interactive {
-              padding: var(--dl-space-space-unit);
+              padding: 0;
             }
             .home-hero {
               flex-direction: column;
@@ -1071,9 +1058,6 @@ const Home = (props) => {
             .home-separator {
               margin-top: 24px;
               margin-bottom: 24px;
-            }
-            .home-text47 {
-              text-align: center;
             }
           }
         `}
