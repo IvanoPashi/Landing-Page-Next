@@ -15,7 +15,7 @@ const Home = (props) => {
           <meta property="og:title" content="Purple Light Services" />
           <meta
             property="og:description"
-            content="Purple Light Services. With a traditional design approach and modern technologies, we offer exceptional and unique services to find personal harmony in today's fast-paced world."
+            content="Purple Light Services. With a traditional design approach and modern technologies, we offer exceptional and unique services to find personal harmony in today's fast-paced world. Feng Shui and Vastu."
           />
         </Head>
         <header id="header" data-role="Header" className="home-header">
@@ -501,11 +501,9 @@ const Home = (props) => {
           }
           .home-text-container {
             width: 40%;
+            margin: 1rem;
             display: flex;
             align-self: center;
-            margin-top: var(--dl-space-space-fiveunits);
-            margin-left: var(--dl-space-space-fiveunits);
-            margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
           .home-text {
@@ -514,7 +512,6 @@ const Home = (props) => {
           }
           .home-image {
             width: 60%;
-            margin-left: var(--dl-space-space-fiveunits);
           }
           .home-section-separator {
             width: 100%;
@@ -556,17 +553,18 @@ const Home = (props) => {
             width: 90%;
             display: flex;
             align-items: center;
-            margin-bottom: 2rem;
             flex-direction: column;
           }
           .home-text19 {
             color: var(--dl-color-main-gray-text);
             padding: 1rem;
+            text-align: center;
             padding-left: 1rem;
             padding-right: 1rem;
           }
           .home-cards-container {
             width: 90%;
+            margin: 1rem;
             display: flex;
           }
           .home-service-card {
@@ -639,7 +637,6 @@ const Home = (props) => {
             width: 90%;
             display: flex;
             align-items: center;
-            margin-bottom: 2rem;
             flex-direction: column;
           }
           .home-text28 {
@@ -935,9 +932,6 @@ const Home = (props) => {
               min-height: 60vh;
               align-items: stretch;
             }
-            .home-image {
-              width: 50%;
-            }
             .home-testimonials {
               align-items: center;
               flex-direction: column;
@@ -1028,19 +1022,12 @@ const Home = (props) => {
             .home-text {
               line-height: 1.3;
             }
-            .home-image {
-              width: 100%;
-              margin-left: 0px;
-            }
             .home-cards-container {
               flex-direction: column;
             }
             .home-service-card {
               width: 100%;
               border-color: #678109;
-            }
-            .home-text28 {
-              text-align: center;
             }
             .home-text30 {
               font-size: 1.25rem;
