@@ -519,7 +519,6 @@ const NataliaPashigina = (props) => {
             width: 100%;
             display: flex;
             padding: 1rem;
-            flex-direction: row;
             justify-content: space-between;
           }
           .natalia-pashigina-link {
@@ -1187,7 +1186,6 @@ const NataliaPashigina = (props) => {
             }
             .natalia-pashigina-text55 {
               color: var(--dl-color-main-text);
-              font-size: 1.5rem;
             }
             .natalia-pashigina-text56 {
               color: var(--dl-color-main-gray-text);

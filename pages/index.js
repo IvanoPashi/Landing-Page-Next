@@ -384,9 +384,6 @@ const Home = (props) => {
             width: 100%;
             display: flex;
             padding: 1rem;
-            position: relative;
-            align-items: center;
-            flex-direction: row;
             justify-content: space-between;
           }
           .home-link {
@@ -917,7 +914,12 @@ const Home = (props) => {
               min-height: 70vh;
             }
             .home-service-card {
-              padding: 1rem;
+              justify-content: space-between;
+            }
+            .home-service-card1 {
+              justify-content: space-between;
+            }
+            .home-service-card2 {
               justify-content: space-between;
             }
           }
@@ -985,9 +987,6 @@ const Home = (props) => {
               border-right-width: 0px;
               border-bottom-width: 2px;
             }
-            .home-service-card2 {
-              width: 100%;
-            }
             .home-icon04 {
               height: 48px;
             }
@@ -1021,13 +1020,6 @@ const Home = (props) => {
             }
             .home-text {
               line-height: 1.3;
-            }
-            .home-cards-container {
-              flex-direction: column;
-            }
-            .home-service-card {
-              width: 100%;
-              border-color: #678109;
             }
             .home-text30 {
               font-size: 1.25rem;
