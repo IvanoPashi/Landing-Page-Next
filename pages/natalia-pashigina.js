@@ -38,7 +38,7 @@ const NataliaPashigina = (props) => {
               <a className="natalia-pashigina-link">
                 <img
                   alt="logo"
-                  src="/playground_assets/purple%20light%20services-2-1500h.png"
+                  src="/purple%20light%20services-2-1500h.png"
                   className="natalia-pashigina-logo"
                 />
               </a>
@@ -115,7 +115,7 @@ const NataliaPashigina = (props) => {
                     <a className="natalia-pashigina-link07">
                       <img
                         alt="logo"
-                        src="/playground_assets/purple%20light%20services-2-1500h.png"
+                        src="/purple%20light%20services-2-1500h.png"
                         className="natalia-pashigina-logo1"
                       />
                     </a>
@@ -184,7 +184,7 @@ const NataliaPashigina = (props) => {
           <div id="profile" className="natalia-pashigina-profile">
             <img
               alt="Avatar Natalia"
-              src="/playground_assets/natalia-modified1.png"
+              src="/natalia-modified1.png"
               loading="eager"
               className="natalia-pashigina-image"
             />
@@ -388,7 +388,7 @@ const NataliaPashigina = (props) => {
             <div className="natalia-pashigina-service-card">
               <img
                 alt="Feng Shui and Vastu"
-                src="/playground_assets/c159a585-a6c7-4bd5-ab9a-07e688338b7a-1500h.jpg"
+                src="/c159a585-a6c7-4bd5-ab9a-07e688338b7a-1500h.jpg"
                 loading="lazy"
                 className="natalia-pashigina-image1"
               />
@@ -401,7 +401,7 @@ const NataliaPashigina = (props) => {
             <div className="natalia-pashigina-service-card1">
               <img
                 alt="Consulting"
-                src="/playground_assets/123-1500h.jpg"
+                src="/123-1500h.jpg"
                 loading="lazy"
                 className="natalia-pashigina-image2"
               />
@@ -416,7 +416,7 @@ const NataliaPashigina = (props) => {
             <div className="natalia-pashigina-service-card2">
               <img
                 alt="Consulting"
-                src="/playground_assets/1234-1500h.jpg"
+                src="/1234-1500h.jpg"
                 loading="lazy"
                 className="natalia-pashigina-image3"
               />
@@ -432,7 +432,7 @@ const NataliaPashigina = (props) => {
             <div className="natalia-pashigina-service-card3">
               <img
                 alt="Ba Zi"
-                src="/playground_assets/unsplash-image1-1500h.jpeg"
+                src="/unsplash-image1-1500h.jpeg"
                 loading="lazy"
                 className="natalia-pashigina-image4"
               />
@@ -457,7 +457,7 @@ const NataliaPashigina = (props) => {
         <footer className="natalia-pashigina-footer">
           <img
             alt="image"
-            src="/playground_assets/purple%20light%20services-2-1500h.png"
+            src="/purple%20light%20services-2-1500h.png"
             className="natalia-pashigina-image5"
           />
           <nav className="natalia-pashigina-nav3">

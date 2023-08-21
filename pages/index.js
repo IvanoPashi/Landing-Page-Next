@@ -24,7 +24,7 @@ const Home = (props) => {
               <a className="home-link">
                 <img
                   alt="logo"
-                  src="/playground_assets/purple%20light%20services-2-1500h.png"
+                  src="/purple%20light%20services-2-1500h.png"
                   className="home-logo"
                 />
               </a>
@@ -71,7 +71,7 @@ const Home = (props) => {
                     <a className="home-link07">
                       <img
                         alt="logo"
-                        src="/playground_assets/purple%20light%20services-2-1500h.png"
+                        src="/purple%20light%20services-2-1500h.png"
                         className="home-logo1"
                       />
                     </a>
@@ -126,7 +126,7 @@ const Home = (props) => {
           </div>
           <img
             alt="image"
-            src="/playground_assets/c159a585-a6c7-4bd5-ab9a-07e688338b7a-1500h.jpg"
+            src="/c159a585-a6c7-4bd5-ab9a-07e688338b7a-1500h.jpg"
             loading="lazy"
             className="home-image"
           />
@@ -319,7 +319,11 @@ const Home = (props) => {
               <svg viewBox="0 0 804.5714285714286 1024" className="home-icon14">
                 <path d="M804.571 708.571c0 20.571-9.143 60.571-17.714 79.429-12 28-44 46.286-69.714 60.571-33.714 18.286-68 29.143-106.286 29.143-53.143 0-101.143-21.714-149.714-39.429-34.857-12.571-68.571-28-100-47.429-97.143-60-214.286-177.143-274.286-274.286-19.429-31.429-34.857-65.143-47.429-100-17.714-48.571-39.429-96.571-39.429-149.714 0-38.286 10.857-72.571 29.143-106.286 14.286-25.714 32.571-57.714 60.571-69.714 18.857-8.571 58.857-17.714 79.429-17.714 4 0 8 0 12 1.714 12 4 24.571 32 30.286 43.429 18.286 32.571 36 65.714 54.857 97.714 9.143 14.857 26.286 33.143 26.286 50.857 0 34.857-103.429 85.714-103.429 116.571 0 15.429 14.286 35.429 22.286 49.143 57.714 104 129.714 176 233.714 233.714 13.714 8 33.714 22.286 49.143 22.286 30.857 0 81.714-103.429 116.571-103.429 17.714 0 36 17.143 50.857 26.286 32 18.857 65.143 36.571 97.714 54.857 11.429 5.714 39.429 18.286 43.429 30.286 1.714 4 1.714 8 1.714 12z"></path>
               </svg>
-              <span className="home-text46">+971 50 836 7818</span>
+              <span className="home-text46">
+                <span>+971 09 224 4982</span>
+                <br></br>
+                <span>+971 50 836 7818</span>
+              </span>
             </div>
           </div>
         </div>
@@ -327,7 +331,7 @@ const Home = (props) => {
         <footer className="home-footer">
           <img
             alt="image"
-            src="/playground_assets/purple%20light%20services-2-1500h.png"
+            src="/purple%20light%20services-2-1500h.png"
             className="home-image4"
           />
           <nav className="home-nav3">
@@ -352,9 +356,9 @@ const Home = (props) => {
           </nav>
           <div className="home-separator"></div>
           <div className="home-container2">
-            <span className="home-text47">
+            <span className="home-text50">
               <span>
-                © 2022 Purple Light Services FZE,
+                © 2023 Purple Light Services FZE,
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -832,7 +836,7 @@ const Home = (props) => {
           .home-text46 {
             font-size: 1rem;
             text-align: left;
-            font-family: Raleway;
+            font-family: Roboto;
             font-weight: 400;
             line-height: 1.55;
             text-transform: none;
@@ -906,7 +910,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-text47 {
+          .home-text50 {
             text-align: center;
           }
           @media (max-width: 1600px) {
