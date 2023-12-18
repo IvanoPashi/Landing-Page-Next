@@ -1,0 +1,3 @@
+robots.txt
+User-agent: *
+Sitemap: https://purplelightservices.com/sitemap.xml
